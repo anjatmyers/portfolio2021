@@ -57,10 +57,10 @@
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#services">Services</a></li>
+          <!-- <li><a href="#resume">Resume</a></li> -->
+          <li><a href="#interests">Interests</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
+          <!-- <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="drop-down"><a href="#">Drop Down 2</a>
@@ -76,7 +76,7 @@
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact</a></li>
 
         </ul>
@@ -94,11 +94,11 @@
         <div class="row no-gutters">
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start mr-4"></div>
           <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
+            <div class="content d-flex flex-column justify-content-center m-3 p-3">
               <h3>About Me</h3>
               <p>
                 My name is Andrea and I am a full-stack software engineer student. I am currently enrolled in the DigitalCrafts Coding Bootcamp and am set to graduate March 2021. <br> 
-                I graduated from the University of Virginia in 2017 with a degree in public health. However, in 2020 I decided to make a transition from the medical field to software engineering. I love working with computers and find it so satisfying to build something from the ground up. Premed course work and patient exposure prepped me for a different career path but the skills I learned along the way are well suited to software developemnt. In previous experiences it was critical to develop a sharp attention to detail, strong work ethic, the ability to listen to the needs of others and display clear understanding, and many more that come from working in service of others. I'm excited to continue my growth as a developer in hopes that I can make technology more functional and accessible to the people that need it the most. 
+                I graduated from the University of Virginia in 2017 with a degree in public health. However, in 2020 I decided to make a transition from the medical field to software engineering. I love working with computers and find it so satisfying to build something from the ground up. Premed course work and patient exposure prepped me for a different career path but the skills I learned along the way are well suited to software development. In previous experiences it was critical to develop a sharp attention to detail, strong work ethic, the ability to listen to the needs of others and display clear understanding, and many more that stem from working in service of others. I'm excited to continue my growth as a developer in hopes that I can make technology more functional and accessible to the people that need it the most. 
               </p>
               <!-- <div class="row">
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
@@ -151,21 +151,27 @@
 
         <div class="row skills-content">
 
-          <div class="col-lg-4 offset-2">
+          <div class="col-lg-3 offset-2">
 
-            <h4 class="skillsEdited">HTML</h4>
-            <h4 class="skillsEdited">CSS</h4>
-            <h4 class="skillsEdited">Python</h4>
-            <h4 class="skillsEdited">Javascript</h4>
-           
-            
-          </div>
-
-          <div class="col-lg-4 offset-2">
+            <h4 class="skillsEdited">JavaScript</h4>
+            <h4 class="skillsEdited">jQuery</h4>
             <h4 class="skillsEdited">Express</h4>
             <h4 class="skillsEdited">Node.js</h4>
+           </div>
+          <div class="col-lg-3 ">
+            <h4 class="skillsEdited">HTML/CSS</h4>
+            <h4 class="skillsEdited">Bootstrap</h4>
+            <h4 class="skillsEdited">Flexbox</h4>
+            <h4 class="skillsEdited">Python</h4>
+            
+           </div>
+
+          <div class="col-lg-3 ">
+            <h4 class="skillsEdited">Sequelize</h4>
             <h4 class="skillsEdited">PostgreSQL</h4>
             <h4 class="skillsEdited">AWS</h4>
+            <h4 class="skillsEdited">React/Redux</h4>
+            <h4 class="skillsEdited">React Native</h4>
           </div>
 
         </div>
@@ -179,10 +185,10 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>This portfolio is currently under construction. My projects will be here after January 29th. Please visit my github until the date above. Thank you for your understanding.  https://github.com/anjatmyers </p>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
@@ -321,7 +327,7 @@
             </div>
           </div>
 
-        </div>
+        </div> -->
 
       </div>
     </section>
@@ -401,7 +407,7 @@
     <!-- End Resume Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
+    <section id="interests" class="services section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -562,8 +568,12 @@
 
             </div>
           </div>
-
-          <div class="col-lg-5 col-md-8">
+          <!-- photo above footer -->
+          <div class="col-lg-5 col-md-8 pb-3">
+            <img src="assets/img/closeup2.jpeg" alt="andrea myers" style="height: 300px; border-radius: 50%;">
+          </div>
+<!-- message section below -->
+          <!-- <div class="col-lg-5 col-md-8">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -593,9 +603,12 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+       </section>
+      <! end message section -->
+    <!-- </main> -->
+    <!-- End Contact Section -->
 
-  </main><!-- End #main -->
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
