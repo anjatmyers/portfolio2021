@@ -27,6 +27,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
 
+.tab {
+ margin-left: 20px;
+}
 .subheading {
   color: rgb(63, 62, 62);
 }
